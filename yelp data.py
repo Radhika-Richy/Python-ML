@@ -2,7 +2,7 @@
 """
 Created on Sat Aug 17 23:06:03 2019
 
-@author: Vishal
+@author: Radhika
 """
 
 import numpy as np
@@ -54,7 +54,7 @@ print('\n')
 print(classification_report(y_test,predictions))
 
 
-#try to include TF-IDF to this process using a pipeline
+# using TF-IDF using a pipeline
 from sklearn.feature_extraction.text import  TfidfTransformer
 from sklearn.pipeline import Pipeline
 pipeline = Pipeline([
